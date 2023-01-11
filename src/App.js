@@ -13,8 +13,8 @@ function App() {
           <div className="tab"> <strong> Favourties</strong></div>
         </div>
         <div className="list" >
-          {data.map(movie=>(
-            <Moviecard movie={movie} />
+          {data.map((movie,index)=>(
+            <Moviecard movie={movie} key={`movie_${index}`} />
           ))}
         </div>
       </div>
