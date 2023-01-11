@@ -1,0 +1,32 @@
+.movie-card{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    margin: 0 1rem;
+}
+.title{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.left img{
+    height: 15rem;
+    width: 10rem;
+}
+.rating-main{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.release{
+    margin-top: 1rem;
+}
+.btn1{
+    background-color: skyblue;
+    color: white;
+}
+.rating{
+    font-weight: bold;
+    
+}

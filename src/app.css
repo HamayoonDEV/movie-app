@@ -1,0 +1,8 @@
+.tabs{
+    display: flex;
+    margin-left: 38rem;
+
+}
+.tab{
+    margin: 1rem;
+}

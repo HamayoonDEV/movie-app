@@ -6,7 +6,7 @@ class Navbar extends React.Component {
   return (
     <div className='nav'>
         <div className='search-container'>
-            <input/>
+            <input type='text'/>
             <button className='btn' id='search-btn'>Search</button>
         </div>
     </div>

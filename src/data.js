@@ -1,10 +1,10 @@
-import { getToPathname } from "@remix-run/router";
+//import { getToPathname } from "@remix-run/router";
 
-const data = [
+ export const data = [
     {
         moviename:"pathan",
-        release:2023,
-        ratings:5,
+        release:'Premise. Pathaan, an exiled RAW field operative is assigned to take down "Outfit X", a private terroristorganization that is planning massive attacks on India.',
+        ratings:5.1,
         imageurl:"https://www.filmibeat.com/img/popcorn/movie_posters/pathaan-20221102160119-19430.jpg"
     }
 ]
